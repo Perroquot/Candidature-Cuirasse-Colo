@@ -1,0 +1,70 @@
+main{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    color: white;
+}
+.header{
+    margin-bottom: 50vh;
+}
+.fiche_perso{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.fiche_perso img{
+    width: 45%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button a{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+}
+.button img{
+    width: 30vh;
+}
+
+.cat_choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cat_choice a{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.cat_choice img{
+    width: 25vh;
+}
+
+video{
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
