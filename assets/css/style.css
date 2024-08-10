@@ -10,7 +10,7 @@ h1{
     color: white;
 }
 .header{
-    margin-bottom: 50vh;
+    margin-bottom: 15vh;
 }
 .fiche_perso{
     display: flex;
@@ -43,7 +43,7 @@ h1{
 .cat_choice{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 
@@ -54,7 +54,7 @@ h1{
 }
 
 .cat_choice img{
-    width: 25vh;
+    width: 23vh;
 }
 
 video{
